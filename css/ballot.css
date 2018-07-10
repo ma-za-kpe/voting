@@ -1,62 +1,56 @@
-header{
+header {
   margin-top: 30px;
 }
-h1{
+
+h1 {
   text-align: center;
   margin-top: 60px;
   font-size: 50px;
+  letter-spacing: 2px;
 }
-main{
+
+main {
   margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/****** MEDIA QUERIES******/
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 50px;
+  color: #1F0229 ;
 }
+h2{
+  padding-top: 10px;
+}
+/****** MEDIA QUERIES******/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
 
-}
+@media only screen and (min-width: 480px) {}
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 770px) {
-  .phone{
+
+@media only screen and (min-width: 770px) {
+  .phone {
     display: none;
   }
-
+  .main-container {
+    margin-left: 70px;
+  }
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 960px) {
-.phone{
-  display: none;
-}
+
+@media only screen and (min-width: 960px) {
+  .phone {
+    display: none;
+  }
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}
